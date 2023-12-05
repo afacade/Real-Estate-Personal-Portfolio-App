@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="50dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Upload Data"
+                    android:textAlignment="center"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/uploadImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/uploadimg" />
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/autocomplete_fragment2"
+                    android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/uploadName"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lavender_border"
+                    android:gravity="start|center_vertical"
+                    android:hint="Enter property name"
+                    android:padding="16dp"
+                    android:textColor="@color/lavender" />
+
+
+
+                <EditText
+                    android:id="@+id/uploadDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lavender_border"
+                    android:gravity="start|center_vertical"
+                    android:hint="Enter description"
+                    android:padding="16dp"
+                    android:textColor="@color/lavender" />
+
+                <EditText
+                    android:id="@+id/uploadLatitude"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lavender_border"
+                    android:gravity="start|center_vertical"
+                    android:hint="Enter latitude"
+                    android:padding="16dp"
+                    android:textColor="@color/lavender" />
+
+                <EditText
+                    android:id="@+id/uploadLong"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lavender_border"
+                    android:gravity="start|center_vertical"
+                    android:hint="Enter longitude"
+                    android:padding="16dp"
+                    android:textColor="@color/lavender" />
+
+                <EditText
+                    android:id="@+id/uploadPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lavender_border"
+                    android:gravity="start|center_vertical"
+                    android:hint="Enter price"
+                    android:padding="16dp"
+                    android:textColor="@color/lavender" />
+
+                <EditText
+                    android:id="@+id/uploadPhoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/lavender_border"
+                    android:gravity="start|center_vertical"
+                    android:hint="Enter phone number"
+                    android:padding="16dp"
+                    android:textColor="@color/lavender" />
+
+                <Button
+                    android:id="@+id/saveButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Save"
+                    android:textSize="18sp"
+                    app:cornerRadius="20dp" />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

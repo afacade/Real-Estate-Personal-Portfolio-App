@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "349182222375",
+    "project_id": "realtor-notebook",
+    "storage_bucket": "realtor-notebook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349182222375:android:b4056b88865d1166336e02",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349182222375-vvae8089fa5ohea3t4etpseb64a76vng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA34fVvZBIvOouXcwJyHl17ZmeQTYk5r6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349182222375-vvae8089fa5ohea3t4etpseb64a76vng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349182222375:android:43612314153c2fae336e02",
+        "android_client_info": {
+          "package_name": "com.example.navbarexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349182222375-vvae8089fa5ohea3t4etpseb64a76vng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA34fVvZBIvOouXcwJyHl17ZmeQTYk5r6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349182222375-vvae8089fa5ohea3t4etpseb64a76vng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349182222375:android:d887db367abf3a1f336e02",
+        "android_client_info": {
+          "package_name": "com.example.test1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349182222375-vvae8089fa5ohea3t4etpseb64a76vng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA34fVvZBIvOouXcwJyHl17ZmeQTYk5r6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349182222375-vvae8089fa5ohea3t4etpseb64a76vng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
